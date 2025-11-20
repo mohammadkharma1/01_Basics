@@ -1,9 +1,9 @@
-let password =("1000");
-let input = prompt ("Enter your password");
+let password = ("1000");
+let passwordFromUser = prompt("Enter your password");
 
-if (input === password) {
+if (passwordFromUser === password) {
     console.log("Access granted");
 }
-if (input !== password){
+if (passwordFromUser !== password) {
     console.log("Access denied");
 }
