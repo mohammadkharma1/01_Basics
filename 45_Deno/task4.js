@@ -1,11 +1,10 @@
-let number1 = prompt("How old are you ?");
-
-if (30 > number1 && number1 < 50) {
-    console.log("You are midold!");
+let age =12;
+if (age<18){
+    console.log("du bist jung");
 }
-else if ("0< number1 && number 1< 29") {
-    console.log("You are young!");
+ else if (age < 50 && age <= 18) {
+  console.log("mittelalt");
 }
-else if ("50< number1 && number1 < 150") {
-    console.log("You are old!");
+if (age > 50) {
+  console.log("alt");
 }
