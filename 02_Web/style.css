@@ -1,0 +1,14 @@
+div {
+  background-color: aqua;
+  border-style: groove;
+}
+
+.headers {
+  font-size: large;
+  background-color: red;
+}
+
+.subtitle{
+    font-size: 1,5rem;
+    background-color: chocolate ;
+}
