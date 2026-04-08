@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Layout</title>
+
+<style>
+  
+
+  .container {
+    width: 900px;
+    height: 500px;
+    margin: 40px auto;
+    border: 3px  black;
+    border-radius: 10px;
+    position: relative;
+    background: #eee;
+  }
+
+ 
+  .sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background: green;
+    border-left: 3px  black;
+  }
+
+ 
+  .center-box {
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    border: 2px  black;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+  }
+
+
+  .side-box {
+    width: 50px;
+    height: 35px;
+    border: 2px  black;
+    margin: 10px auto;
+    background: transparent;
+  }
+
+  .top-group {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+  }
+
+  .bottom-group {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+  
+  <div class="center-box"></div>
+
+
+  <div class="sidebar">
+
+    
+    <div class="top-group">
+      <div class="side-box"></div>
+      <div class="side-box"></div>
+    </div>
+
+    
+    <div class="bottom-group">
+      <div class="side-box"></div>
+      <div class="side-box"></div>
+      <div class="center-box"></div>
+      <div class="sidebar">
+
+ 
+  <div class="side-box"></div>
+  <div class="side-box"></div>
+
+ 
+  <div class="side-box"></div>
+  <div class="side-box"></div>
+
+</div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
