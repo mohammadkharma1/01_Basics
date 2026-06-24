@@ -8,5 +8,4 @@ document.getElementById("button").addEventListener("click", function(){
     const sum =parseFloat(value1) + parseFloat(value2);
     document.getElementById("result").innerText="Sum:"+sum;
   }
-  console.log(value1);
 });
